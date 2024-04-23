@@ -1,0 +1,88 @@
+body{
+    font-family: Cormorant,serif;
+}
+
+h1{
+    display: inline-block;
+    font-weight: 300;
+    margin:0 32px 0 0;
+}
+
+.link{
+    display: inline-block;
+}
+
+.link li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.link a{
+    color:black;
+    text-decoration: none;
+    margin:0 8px;
+}
+.link ul{
+    padding:0;
+}
+
+.navbar{
+    margin:32px;
+}
+
+a.current{
+    border-bottom: 1px solid black;
+}
+
+.photos{
+    padding: 16px;
+}
+
+.photo{
+    width: 49.75%;
+    display:inline-block;
+    box-sizing: border-box;
+    padding: 16px;
+}
+.photo img{
+    height: 400px;
+    width:100%;
+    object-fit: cover;
+}
+
+.photo h2{
+    display: inline-block;
+    margin:9px 0 18px 0;
+    font-weight: 400;
+}
+
+.ending{
+    width: 40%;
+    min-width:600px;
+    margin:100px 0 100px 200px; 
+}
+
+.ending h3{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.contact{
+    margin-top: 100px;
+
+}
+
+.contact p{
+    margin: 0;
+    font-size: 20px;
+}
+
+#underline{
+    border-bottom: 1.5px solid black;
+    display: inline-block;
+    padding-bottom: 7px ;
+    margin-top: 0;
+}
+ .photo img:hover{
+    opacity:0.8;
+ }
